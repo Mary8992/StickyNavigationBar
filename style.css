@@ -88,3 +88,21 @@ header.sticky ul li a
 {
     color: #000;
 }
+
+.text {
+    color: #fff;
+    padding: 40px 100px;
+    width: 100%;
+}
+
+.text h1 {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.text p {
+    font-size: 17px;
+    line-height: 1.8em;
+    word-spacing: 2px;
+}
