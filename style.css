@@ -9,7 +9,7 @@
 
 body {
     background: #000;
-    min-height: 200vh; /*scroll*/
+    min-height: 250vh; /*scroll*/
 }
 
 header {
@@ -89,10 +89,34 @@ header.sticky ul li a
     color: #000;
 }
 
+/*CSS3 Transform Effects on Scroll*/
+.curve-container {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 200px);
+    background: #2abbff;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.curve-container .curve {
+    position: absolute;
+    bottom: -200px;
+    height: 200px;
+    width: 100%;
+    transform-origin: top;
+}
+
+.curve-container .curve img {
+    width: 100%;
+    height: 100%;
+}
+
 .text {
     color: #fff;
     padding: 40px 100px;
     width: 100%;
+    z-index: 1;
 }
 
 .text h1 {
